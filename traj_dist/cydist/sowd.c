@@ -10354,7 +10354,7 @@ PyMODINIT_FUNC PyInit_sowd(void)
   /* "traj_dist/cydist/sowd.pyx":11
  * 
  * from libc.math cimport fmin
- * from basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
+ * from .basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
  * from cpython cimport bool
  * from numpy.math cimport INFINITY
  */

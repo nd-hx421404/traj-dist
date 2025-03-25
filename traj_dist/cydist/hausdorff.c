@@ -5433,8 +5433,8 @@ PyMODINIT_FUNC PyInit_hausdorff(void)
   /* "traj_dist/cydist/hausdorff.pyx":8
  * cimport numpy as np
  * 
- * from basic_euclidean import c_point_to_trajectory             # <<<<<<<<<<<<<<
- * from basic_geographical import c_point_to_path
+ * from .basic_euclidean import c_point_to_trajectory             # <<<<<<<<<<<<<<
+ * from .basic_geographical import c_point_to_path
  * 
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 8; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -5453,8 +5453,8 @@ PyMODINIT_FUNC PyInit_hausdorff(void)
 
   /* "traj_dist/cydist/hausdorff.pyx":9
  * 
- * from basic_euclidean import c_point_to_trajectory
- * from basic_geographical import c_point_to_path             # <<<<<<<<<<<<<<
+ * from .basic_euclidean import c_point_to_trajectory
+ * from .basic_geographical import c_point_to_path             # <<<<<<<<<<<<<<
  * 
  * #############
  */

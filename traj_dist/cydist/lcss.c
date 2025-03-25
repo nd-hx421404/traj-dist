@@ -1174,7 +1174,7 @@ static PyObject *__pyx_codeobj__8;
 static PyObject *__pyx_codeobj__10;
 
 /* "traj_dist/cydist/lcss.pyx":14
- * from basic_geographical import c_great_circle_distance
+ * from .basic_geographical import c_great_circle_distance
  * 
  * def c_e_lcss(np.ndarray[np.float64_t,ndim=2] t0, np.ndarray[np.float64_t,ndim=2] t1, eps):             # <<<<<<<<<<<<<<
  *     """
@@ -1757,7 +1757,7 @@ static PyObject *__pyx_pf_9traj_dist_6cydist_4lcss_c_e_lcss(CYTHON_UNUSED PyObje
   goto __pyx_L0;
 
   /* "traj_dist/cydist/lcss.pyx":14
- * from basic_geographical import c_great_circle_distance
+ * from .basic_geographical import c_great_circle_distance
  * 
  * def c_e_lcss(np.ndarray[np.float64_t,ndim=2] t0, np.ndarray[np.float64_t,ndim=2] t1, eps):             # <<<<<<<<<<<<<<
  *     """
@@ -4553,7 +4553,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__6);
 
   /* "traj_dist/cydist/lcss.pyx":14
- * from basic_geographical import c_great_circle_distance
+ * from .basic_geographical import c_great_circle_distance
  * 
  * def c_e_lcss(np.ndarray[np.float64_t,ndim=2] t0, np.ndarray[np.float64_t,ndim=2] t1, eps):             # <<<<<<<<<<<<<<
  *     """
@@ -4709,8 +4709,8 @@ PyMODINIT_FUNC PyInit_lcss(void)
   /* "traj_dist/cydist/lcss.pyx":11
  * 
  * 
- * from basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
- * from basic_geographical import c_great_circle_distance
+ * from .basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
+ * from .basic_geographical import c_great_circle_distance
  * 
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -4729,8 +4729,8 @@ PyMODINIT_FUNC PyInit_lcss(void)
 
   /* "traj_dist/cydist/lcss.pyx":12
  * 
- * from basic_euclidean import c_eucl_dist
- * from basic_geographical import c_great_circle_distance             # <<<<<<<<<<<<<<
+ * from .basic_euclidean import c_eucl_dist
+ * from .basic_geographical import c_great_circle_distance             # <<<<<<<<<<<<<<
  * 
  * def c_e_lcss(np.ndarray[np.float64_t,ndim=2] t0, np.ndarray[np.float64_t,ndim=2] t1, eps):
  */
@@ -4749,7 +4749,7 @@ PyMODINIT_FUNC PyInit_lcss(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "traj_dist/cydist/lcss.pyx":14
- * from basic_geographical import c_great_circle_distance
+ * from .basic_geographical import c_great_circle_distance
  * 
  * def c_e_lcss(np.ndarray[np.float64_t,ndim=2] t0, np.ndarray[np.float64_t,ndim=2] t1, eps):             # <<<<<<<<<<<<<<
  *     """

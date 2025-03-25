@@ -45,6 +45,12 @@ This package can be build using `distutils`.
 Move to the package directory and run :
 
 ```
+python setup.py build_ext --inplace
+```
+
+then
+
+```
 python setup.py install 
 ```
 to build Cython files. Then run:

@@ -4763,7 +4763,7 @@ PyMODINIT_FUNC PyInit_segment_distance(void)
   /* "traj_dist/cydist/segment_distance.pyx":9
  * from libc.math cimport sqrt
  * 
- * from basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
+ * from .basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * import numpy as np
  */
@@ -4782,7 +4782,7 @@ PyMODINIT_FUNC PyInit_segment_distance(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "traj_dist/cydist/segment_distance.pyx":11
- * from basic_euclidean import c_eucl_dist
+ * from .basic_euclidean import c_eucl_dist
  * cimport numpy as np
  * import numpy as np             # <<<<<<<<<<<<<<
  * 

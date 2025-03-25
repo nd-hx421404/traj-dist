@@ -12729,7 +12729,7 @@ PyMODINIT_FUNC PyInit_frechet(void)
   /* "traj_dist/cydist/frechet.pyx":10
  * 
  * 
- * from basic_euclidean import c_circle_line_intersection,c_point_to_seg,c_eucl_dist             # <<<<<<<<<<<<<<
+ * from .basic_euclidean import c_circle_line_intersection,c_point_to_seg,c_eucl_dist             # <<<<<<<<<<<<<<
  * 
  * 
  */

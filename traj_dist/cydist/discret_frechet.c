@@ -4070,8 +4070,8 @@ PyMODINIT_FUNC PyInit_discret_frechet(void)
   /* "traj_dist/cydist/discret_frechet.pyx":11
  * from numpy.math cimport INFINITY
  * 
- * from basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
- * from basic_geographical import c_great_circle_distance
+ * from .basic_euclidean import c_eucl_dist             # <<<<<<<<<<<<<<
+ * from .basic_geographical import c_great_circle_distance
  * 
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -4090,8 +4090,8 @@ PyMODINIT_FUNC PyInit_discret_frechet(void)
 
   /* "traj_dist/cydist/discret_frechet.pyx":12
  * 
- * from basic_euclidean import c_eucl_dist
- * from basic_geographical import c_great_circle_distance             # <<<<<<<<<<<<<<
+ * from .basic_euclidean import c_eucl_dist
+ * from .basic_geographical import c_great_circle_distance             # <<<<<<<<<<<<<<
  * 
  * ###########################
  */
